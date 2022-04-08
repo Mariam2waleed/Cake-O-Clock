@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">حلوي</string>
+    <string name="home">كعكة الشوكولاتة بالمكسرات</string>
+    <string name="Small">صغير</string>
+    <string name="Medium">صغير</string>
+    <string name="Large">كبير</string>
+</resources>
