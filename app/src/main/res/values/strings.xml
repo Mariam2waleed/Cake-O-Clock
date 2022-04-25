@@ -1,8 +1,37 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Cake-O-Clock</string>
     <string name="home">Chocolate cake with nuts</string>
     <string name="Small">Small</string>
     <string name="Medium">Medium</string>
     <string name="Large">Large</string>
+    <string name="chocolate_cake_with_nuts">Chocolate cake with nuts</string>
+    <string name="Add_to_cart">Add to cart</string>
+    <string name="cakes">Cakes</string>
+    <string name="chocolate_cake">chocolate cake</string>
+    <string name="_8_seasons">8 Seasons</string>
+    <string name="Rainbow">Rainbow</string>
+    <string name="strawberry">strawberry</string>
+    <string name="Maltesers">Maltesers</string>
+    <string name="vanilla">vanilla</string>
+    <string name="skip">skip</string>
+    <string name="Title">Quick, Fresh &amp; Delicious Bakery</string>
+    <string name="Home">Made by hand from scratch with love</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Forgot_password">Forgot password?</string>
+    <string name="Donot_have">Don\'t have an account? Sign Up</string>
+    <string name="Create">Create An Account</string>
+    <string name="sign_up_with">Or sign up with</string>
+
+
+
+
+
+
+
+
 
 </resources>
