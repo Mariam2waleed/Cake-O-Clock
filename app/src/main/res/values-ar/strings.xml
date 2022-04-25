@@ -1,7 +1,32 @@
 <resources>
+
     <string name="app_name">حلوي</string>
     <string name="home">كعكة الشوكولاتة بالمكسرات</string>
     <string name="Small">صغير</string>
     <string name="Medium">صغير</string>
     <string name="Large">كبير</string>
+    <string name="chocolate_cake_with_nuts">كيكة_الشوكولاته</string>
+    <string name="Add_to_cart">أضف إلى السلة</string>
+    <string name="cakes">كعكة</string>
+    <string name="chocolate_cake">كعكة الشوكولاتة</string>
+    <string name="_8_seasons">8 مواسم</string>
+    <string name="Rainbow">قوس المطر</string>
+    <string name="strawberry">الفراولة</string>
+    <string name="Maltesers">مالتيزر</string>
+    <string name="vanilla">فانيلا</string>
+    <string name="skip">يتخطى</string>
+    <string name="Title">مخبز سريع وطازج ولذيذ</string>
+    <string name="Home">صنع باليد من الصفر مع الحب</string>
+    <string name="sign_up">اشتراك</string>
+    <string name="Sign_in">تسجيل الدخول</string>
+    <string name="Email">بريد الالكتروني</string>
+    <string name="Password">كلمه السر</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Forgot_password">هل نسيت كلمة السر؟</string>
+    <string name="Donot_have">ليس لديك حساب؟ اشتراك</string>
+    <string name="Create">انشئ حساب</string>
+    <string name="sign_up_with">أو اشترك مع</string>
+
+
+
 </resources>
