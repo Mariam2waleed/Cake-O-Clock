@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity6"
+    tools:context=".createAccount"
     android:background="#F1DBD4">
 
     <LinearLayout
@@ -15,23 +15,21 @@
         tools:layout_editor_absoluteX="-79dp"
         tools:layout_editor_absoluteY="115dp">
 
-
         <Button
-            android:layout_width="74dp"
+            android:layout_width="63dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="0dp"
             android:text="<"
-            android:textSize="20dp"
+            android:textSize="30dp"
             app:backgroundTint="#DD6C92"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="1dp" />
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="13dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20dp"
-            android:text="Cakes"
+            android:text="@string/cakes"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#DD6C92"
             android:textSize="40dp"
@@ -82,7 +80,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="chocolate cake"
+                                android:text="@string/chocolate_cake"
                                 android:textStyle="bold" />
 
 
@@ -116,7 +114,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="8 seasons"
+                                android:text="@string/_8_seasons"
                                 android:textStyle="bold" />
 
 
@@ -158,7 +156,7 @@
                                 android:layout_width="59dp"
                                 android:layout_height="32dp"
                                 android:layout_margin="10dp"
-                                android:text="Rainbow"
+                                android:text="@string/Rainbow"
                                 android:textStyle="bold" />
 
 
@@ -190,7 +188,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="strawberry"
+                                android:text="@string/strawberry"
                                 android:textStyle="bold" />
 
 
@@ -232,7 +230,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="Maltesers"
+                                android:text="@string/Maltesers"
                                 android:textStyle="bold" />
 
 
@@ -265,19 +263,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
-                                android:text="vanilla"
+                                android:text="@string/vanilla"
                                 android:textStyle="bold" />
-
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
-
-
                 </LinearLayout>
-
             </LinearLayout>
         </ScrollView>
-
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
