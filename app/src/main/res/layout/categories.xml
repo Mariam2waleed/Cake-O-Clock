@@ -204,8 +204,6 @@
             app:cornerRadius="@android:dimen/thumbnail_width"
             app:iconTint="#716D6D" />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 </LinearLayout>
 </ScrollView>
