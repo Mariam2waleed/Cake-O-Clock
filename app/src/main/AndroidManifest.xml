@@ -16,9 +16,6 @@
             android:name=".NotificationActivity"
             android:exported="false" />
         <activity
-            android:name=".ContactUs"
-            android:exported="false" />
-        <activity
             android:name=".categories"
             android:exported="true" />
         <activity
