@@ -4,134 +4,157 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F1DBD4"
     tools:context=".Home">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#F1DBD4"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="-160dp"
-        tools:layout_editor_absoluteY="-81dp">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="#F1DBD4"-->
+<!--        android:orientation="vertical"-->
+<!--        tools:layout_editor_absoluteX="-160dp"-->
+<!--        tools:layout_editor_absoluteY="-81dp">-->
+<!--            -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
-            android:text="Home"
+            android:text="@string/app_name"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#DD6C92"
             android:textSize="40dp"
             android:textStyle="bold"
             android:typeface="serif"
-
-            />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="20dp" />
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="250dp"
-            android:layout_height="200dp"
-            android:layout_marginLeft="-40dp"
-            app:srcCompat="@drawable/tiramisu_cake_with_lady_finger_cookies_berries_with_cup_tea_flowers__1_" />
+            android:layout_width="145dp"
+            android:layout_height="169dp"
+            app:srcCompat="@drawable/tiramisu_cake_with_lady_finger_cookies_berries_with_cup_tea_flowers__1_"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp"
+            tools:layout_editor_absoluteY="74dp" />
 
         <TextView
             android:id="@+id/text_header2"
-            android:layout_width="267dp"
-            android:layout_height="83dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="-200dp"
+            android:layout_width="238dp"
+            android:layout_height="87dp"
             android:text="Welcome to the bakery"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/black"
             android:textSize="75px"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="80dp" />
 
         <TextView
             android:id="@+id/text_header"
             android:layout_width="230dp"
             android:layout_height="59dp"
-            android:layout_marginLeft="200dp"
             android:text="World class bakery and pastry art"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="159dp" />
 
         <Button
             android:id="@+id/menu"
             android:layout_width="140dp"
             android:layout_height="55dp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="10dp"
             android:backgroundTint="#B72B63"
             android:text="view menu"
-            app:cornerRadius="@android:dimen/thumbnail_width" />
+            app:cornerRadius="@android:dimen/thumbnail_width"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="185dp"
+            tools:layout_editor_absoluteY="228dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="80dp"
-            android:text="___________________________________________" />
+            android:text="___________________________________________"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="295dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="10dp"
             android:text="Contact us"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#DD6C92"
-            android:textSize="25dp"
+            android:textSize="30dp"
             android:textStyle="bold"
-            android:typeface="serif" />
+            android:typeface="serif"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="322dp" />
 
         <ImageView
             android:id="@+id/phone"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/baseline_phone_black_24dp" />
+            android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/baseline_phone_black_24dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="378dp" />
 
         <TextView
+            android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="-40dp"
             android:text="0123456789"
             android:textSize="22dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="396dp" />
 
         <ImageView
             android:id="@+id/mail"
             android:layout_width="40dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/baseline_email_black_24dp" />
+            android:layout_height="43dp"
+            app:layout_constraintTop_toBottomOf="@+id/phone"
+            app:srcCompat="@drawable/baseline_email_black_24dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="24dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="-40dp"
             android:text="cake-o-clock@hotmail.com"
             android:textSize="22dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="436dp" />
 
         <ImageView
             android:id="@+id/imageView11"
-            android:layout_width="55dp"
-            android:layout_height="52dp"
-            android:layout_marginTop="5dp"
-            app:srcCompat="@drawable/loc" />
+            android:layout_width="40dp"
+            android:layout_height="39dp"
+            app:srcCompat="@drawable/loc"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="469dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="-45dp"
             android:text="Elshatby - Alexandria"
             android:textSize="22dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="478dp" />
 
-    </LinearLayout>
+        <!--    </LinearLayout>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
