@@ -10,7 +10,7 @@ public class ContactUs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.Contact_Us);
+        setContentView(R.layout.contacts);
 
         Log.v("","");
     }
