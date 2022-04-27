@@ -22,13 +22,6 @@ public class createAccount extends AppCompatActivity {
         setContentView(R.layout.create_account);
 
         upbtn = (Button) findViewById(R.id.upbtn);
-        upbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                openCategories();
-            }
-        });
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
             NotificationChannel channel = new NotificationChannel("My Notification","My Notification", NotificationManager.IMPORTANCE_DEFAULT);
@@ -41,16 +34,15 @@ public class createAccount extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                openCategories();
                 NotificationCompat.Builder builder = new NotificationCompat.Builder(createAccount.this, "My Notification");
                 builder.setContentTitle("Welcome!");
                 builder.setContentText("Thank you for joining cake o clock, We're pleased to have you");
                 builder.setSmallIcon(R.drawable.logo);
                 builder.setAutoCancel(true);
 
-
                 NotificationManagerCompat managerCompat = NotificationManagerCompat.from(createAccount.this);
                 managerCompat.notify(1,builder.build());
-
 
             }
         });

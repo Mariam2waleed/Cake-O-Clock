@@ -74,6 +74,24 @@
             android:backgroundTint="#B72B63"
             android:text="@string/Sign_in"
             app:cornerRadius="@android:dimen/thumbnail_width" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.codinginflow.jobschedulerexample.MainActivity">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scheduleJob"
+            android:text="Schedule Job" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cancelJob"
+            android:text="Cancel Job" />
+
 
     </LinearLayout>
 

@@ -1,17 +1,18 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.NotificationCompat;
-import androidx.core.app.NotificationManagerCompat;
 
-import android.app.NotificationChannel;
-import android.app.NotificationManager;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.app.job.JobInfo;
+import android.app.job.JobScheduler;
+import android.content.ComponentName;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+
 
 public class welcome extends AppCompatActivity {
 
@@ -42,7 +43,6 @@ public class welcome extends AppCompatActivity {
             }
         });
 
-
         signinbtn = (Button) findViewById(R.id.signinbtn);
         signinbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +51,7 @@ public class welcome extends AppCompatActivity {
                 openLogin();
             }
         });
+
 
     }
 
@@ -66,5 +67,30 @@ public class welcome extends AppCompatActivity {
     public void openHome(){
         Intent i = new Intent(this, Home.class);
         startActivity(i);
+    }
+    public void scheduleJob(View v) {
+        ComponentName componentName = new ComponentName(this, job.class);
+        JobInfo info = new JobInfo.Builder(123, componentName)
+                .setRequiresCharging(true)
+                .setRequiredNetworkType(JobInfo.NETWORK_TYPE_UNMETERED)
+                .setPersisted(true)
+                .setPeriodic(15 * 60 * 1000)
+                .build();
+
+        JobScheduler scheduler = (JobScheduler) getSystemService(JOB_SCHEDULER_SERVICE);
+        int resultCode = scheduler.schedule(info);
+        String TAG =" ";
+        if (resultCode == JobScheduler.RESULT_SUCCESS) {
+            Log.d(TAG, "Job scheduled");
+        } else {
+            Log.d(TAG, "Job scheduling failed");
+        }
+    }
+
+    public void cancelJob(View v) {
+        JobScheduler scheduler = (JobScheduler) getSystemService(JOB_SCHEDULER_SERVICE);
+        scheduler.cancel(123);
+        String TAG=" ";
+        Log.d(TAG, "Job cancelled");
     }
 }
