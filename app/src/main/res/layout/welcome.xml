@@ -75,16 +75,6 @@
             android:text="@string/Sign_in"
             app:cornerRadius="@android:dimen/thumbnail_width" />
 
-        <Button
-            android:id="@+id/bt_notification"
-            android:layout_width="150dp"
-            android:layout_height="55dp"
-            android:layout_marginLeft="-220dp"
-            android:layout_marginTop="580dp"
-            android:backgroundTint="#DD7FA5"
-            android:text="Notify me"
-            app:cornerRadius="@android:dimen/thumbnail_width"
-            android:textStyle="bold"/>
-
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

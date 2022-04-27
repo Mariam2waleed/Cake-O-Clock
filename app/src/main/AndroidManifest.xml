@@ -13,9 +13,6 @@
             android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".NotificationActivity"
-            android:exported="false" />
-        <activity
             android:name=".categories"
             android:exported="true" />
         <activity
