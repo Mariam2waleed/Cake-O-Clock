@@ -95,6 +95,14 @@
             tools:layout_editor_absoluteX="25dp"
             tools:layout_editor_absoluteY="322dp" />
 
+        <Button
+            android:layout_width="51dp"
+            android:layout_height="47dp"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="288dp"
+            tools:layout_editor_absoluteY="379dp"></Button>
+
         <ImageView
             android:id="@+id/phone"
             android:layout_width="40dp"
@@ -106,7 +114,7 @@
             tools:layout_editor_absoluteY="378dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/phoneNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0123456789"
@@ -114,7 +122,7 @@
             android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="68dp"
-            tools:layout_editor_absoluteY="396dp" />
+            tools:layout_editor_absoluteY="388dp" />
 
         <ImageView
             android:id="@+id/mail"
