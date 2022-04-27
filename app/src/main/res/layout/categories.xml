@@ -31,7 +31,7 @@
             android:text="@string/Categories"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#DD6C92"
-            android:textSize="40dp"
+            android:textSize="40sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
@@ -47,7 +47,7 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/cakes"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
@@ -58,7 +58,7 @@
             android:layout_marginLeft="120dp"
             android:text="@string/view_selection"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-            android:textSize="20dp"
+            android:textSize="20sp"
             app:backgroundTint="#CCAD8A"
             app:cornerRadius="@android:dimen/thumbnail_width"
             app:iconTint="#716D6D" />
@@ -68,14 +68,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/gt"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/Gateaux"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
