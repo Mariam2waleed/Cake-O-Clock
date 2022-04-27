@@ -17,7 +17,7 @@
         <Button
             android:layout_width="63dp"
             android:layout_height="wrap_content"
-            android:text="<"
+            android:text="&lt;"
             android:textSize="30dp"
             app:backgroundTint="#DD6C92"
             tools:layout_editor_absoluteX="7dp"

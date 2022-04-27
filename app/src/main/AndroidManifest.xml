@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".Section7"
-            android:exported="true" />
+            android:name=".MainActivity4"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
         <activity
-            android:name=".MainActivity8"
+            android:name=".MainActivity3"
             android:exported="true" />
         <activity
             android:name=".MainActivity7"
@@ -26,12 +31,6 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity4"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity3"
             android:exported="true" />
     </application>
 
