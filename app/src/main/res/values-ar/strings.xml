@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">حلوي</string>
     <string name="home">كعكة الشوكولاتة بالمكسرات</string>
     <string name="Small">صغير</string>
@@ -26,7 +25,8 @@
     <string name="Donot_have">ليس لديك حساب؟ اشتراك</string>
     <string name="Create">انشئ حساب</string>
     <string name="sign_up_with">أو اشترك مع</string>
-
-
+    <string name="Contact_Us">تواصل معنا</string>
+    <string name="Phone">07775000</string>
+    <string name="MyEmail">cakeoclock@gmail.com</string>
 
 </resources>

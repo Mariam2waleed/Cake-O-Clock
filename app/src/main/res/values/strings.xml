@@ -25,13 +25,8 @@
     <string name="Donot_have">Don\'t have an account? Sign Up</string>
     <string name="Create">Create An Account</string>
     <string name="sign_up_with">Or sign up with</string>
-
-
-
-
-
-
-
-
+    <string name="Contact_Us">Contact Us</string>
+    <string name="Phone">07775000</string>
+    <string name="MyEmail">cakeoclock@gmail.com</string>
 
 </resources>

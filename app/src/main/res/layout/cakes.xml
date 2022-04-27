@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
+    tools:context=".cakes"
     android:background="#F1DBD4">
 
     <LinearLayout
@@ -18,7 +18,7 @@
         <Button
             android:layout_width="63dp"
             android:layout_height="wrap_content"
-            android:text="&lt;"
+            android:text=" &lt; "
             android:textSize="30dp"
             app:backgroundTint="#DD6C92"
             tools:layout_editor_absoluteX="7dp"
