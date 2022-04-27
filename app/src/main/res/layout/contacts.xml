@@ -22,7 +22,7 @@
         android:id="@+id/imageView4"
         android:layout_width="439dp"
         android:layout_height="412dp"
-        app:srcCompat="@drawable/image_6"
+        app:srcCompat="@drawable/logo"
         tools:layout_editor_absoluteX="-14dp"
         tools:layout_editor_absoluteY="22dp"
         tools:ignore="MissingConstraints" />
