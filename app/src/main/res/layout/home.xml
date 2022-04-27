@@ -5,18 +5,133 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Home">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#F1DBD4"
-    android:orientation="vertical" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1DBD4"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-160dp"
+        tools:layout_editor_absoluteY="-81dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Home"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#DD6C92"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:typeface="serif"
 
+            />
 
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="-40dp"
+            app:srcCompat="@drawable/tiramisu_cake_with_lady_finger_cookies_berries_with_cup_tea_flowers__1_" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/text_header2"
+            android:layout_width="267dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="-200dp"
+            android:text="Welcome to the bakery"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            android:textSize="75px"
+            android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/text_header"
+            android:layout_width="230dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="200dp"
+            android:text="World class bakery and pastry art"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#B72B63"
+            android:text="view menu"
+            app:cornerRadius="@android:dimen/thumbnail_width" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="___________________________________________" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Contact us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#DD6C92"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/baseline_phone_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-40dp"
+            android:text="0123456789"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/mail"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/baseline_email_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-40dp"
+            android:text="cake-o-clock@hotmail.com"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/loc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="-45dp"
+            android:text="Elshatby - Alexandria"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

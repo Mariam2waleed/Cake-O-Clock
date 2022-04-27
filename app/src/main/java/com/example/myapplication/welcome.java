@@ -35,7 +35,7 @@ public class welcome extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                openCategories();
+                openHome();
             }
         });
 
@@ -61,8 +61,8 @@ public class welcome extends AppCompatActivity {
         Intent x = new Intent(this, signIn.class);
         startActivity(x);
     }
-    public void openCategories(){
-        Intent i = new Intent(this, categories.class);
+    public void openHome(){
+        Intent i = new Intent(this, Home.class);
         startActivity(i);
     }
 }
