@@ -30,6 +30,9 @@
     <string name="view_selection">view selection</string>
     <string name="Gateaux">Gateaux</string>
     <string name="Savory_Bites">Savory Bites</string>
+    <string name="Weddings">Weddings</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="Ice_cream_cakes">Ice cream cakes</string>
 
 
 </resources>
