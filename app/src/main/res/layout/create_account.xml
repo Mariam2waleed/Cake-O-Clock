@@ -36,7 +36,7 @@
             android:id="@+id/input_name"
             android:layout_width="157dp"
             android:layout_height="58dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="0dp"
             android:background="#F5F5F5"
             android:hint="Username"
             android:inputType="textEmailAddress"
@@ -92,6 +92,7 @@
             android:textSize="15dp"/>
 
         <Button
+            android:id="@+id/upbtn"
             android:layout_width="217dp"
             android:layout_height="66dp"
             android:layout_marginLeft="72dp"
@@ -107,7 +108,7 @@
             android:id="@+id/psw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:text="@string/sign_up_with"
             android:textColor="#131313"

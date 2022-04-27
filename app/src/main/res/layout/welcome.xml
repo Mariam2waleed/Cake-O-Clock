@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="-3dp">
 
         <Button
-            android:id="@+id/button_main3"
+            android:id="@+id/skip"
             android:layout_width="72dp"
             android:layout_height="53dp"
             android:layout_marginLeft="320dp"
@@ -58,7 +58,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <Button
-            android:id="@+id/button_main2"
+            android:id="@+id/signupbtn"
             android:layout_width="121dp"
             android:layout_height="55dp"
             android:layout_marginLeft="-210dp"
@@ -68,7 +68,7 @@
             app:cornerRadius="@android:dimen/thumbnail_width" />
 
         <Button
-            android:id="@+id/button_main7"
+            android:id="@+id/signinbtn"
             android:layout_width="121dp"
             android:layout_height="55dp"
             android:layout_marginLeft="55dp"

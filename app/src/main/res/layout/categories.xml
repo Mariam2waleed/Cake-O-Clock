@@ -8,7 +8,7 @@
     tools:context=".categories"
     android:background="#F1DBD4">
 
-    <SearchView
+    <androidx.appcompat.widget.SearchView
         android:id="@+id/search_viewr"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,6 +54,7 @@
             android:typeface="serif" />
 
         <Button
+            android:id="@+id/select"
             android:layout_width="171dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
