@@ -81,11 +81,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="230dp"
-            android:layout_marginTop="-180dp"
+            android:layout_marginTop="-190dp"
             android:text="+"
             android:textSize="30dp"
             app:backgroundTint="#CCAD8A" />
-
         <Button
             style="@style/Widget.AppCompat.Button.Small"
             android:layout_width="wrap_content"
@@ -95,7 +94,6 @@
             android:text="+"
             android:textSize="30dp"
             app:backgroundTint="#CCAD8A" />
-
         <Button
             android:layout_width="217dp"
             android:layout_height="66dp"
@@ -107,14 +105,12 @@
             app:backgroundTint="#885443"
             app:cornerRadius="@android:dimen/thumbnail_width"
             app:iconTint="#716D6D" />
-
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="69dp"
             android:layout_height="30dp"
             android:layout_marginLeft="135dp"
-            android:layout_marginTop="-250dp"
+            android:layout_marginTop="-240dp"
             android:orientation="horizontal"
             android:text="130 le"
             android:textSize="22dp"
