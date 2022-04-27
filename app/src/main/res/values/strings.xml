@@ -26,7 +26,12 @@
     <string name="Create">Create An Account</string>
     <string name="sign_up_with">Or sign up with</string>
     <string name="Contact_Us">Contact Us</string>
-    <string name="Phone">07775000</string>
-    <string name="MyEmail">cakeoclock@gmail.com</string>
+    <string name="Categories">Categories</string>
+    <string name="view_selection">view selection</string>
+    <string name="Gateaux">Gateaux</string>
+    <string name="Savory_Bites">Savory Bites</string>
+    <string name="Categories">Categories</string>
+    <string name="Categories">Categories</string>
+    <string name="Categories">Categories</string>
 
 </resources>

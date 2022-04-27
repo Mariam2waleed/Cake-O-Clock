@@ -26,7 +26,12 @@
     <string name="Create">انشئ حساب</string>
     <string name="sign_up_with">أو اشترك مع</string>
     <string name="Contact_Us">تواصل معنا</string>
-    <string name="Phone">07775000</string>
-    <string name="MyEmail">cakeoclock@gmail.com</string>
+    <string name="Categories">فئات</string>
+    <string name="view_selection">عرض التحديد</string>
+    <string name="Gateaux">جاتو</string>
+    <string name="Savory_Bites">بايتس لذيذة</string>
+    <string name="Categories">فئات</string>
+    <string name="Categories">فئات</string>
+    <string name="Categories">فئات</string>
 
 </resources>

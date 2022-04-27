@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="60dp"
-            android:text="Categories"
+            android:text="@string/Categories"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#DD6C92"
             android:textSize="40dp"
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Cakes"
+            android:text="@string/cakes"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -56,7 +56,7 @@
             android:layout_width="171dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
-            android:text="view selection"
+            android:text="@string/view_selection"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
             android:textSize="20dp"
             app:backgroundTint="#CCAD8A"
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Gateax"
+            android:text="@string/Gateaux"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -83,7 +83,7 @@
             android:layout_width="181dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
-            android:text="view selection"
+            android:text="@string/view_selection"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
             android:textSize="20dp"
             app:backgroundTint="#CCAD8A"
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Savory Bites"
+            android:text="@string/Savory_Bites"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="20dp"
             android:textStyle="bold"
@@ -110,27 +110,12 @@
             android:layout_width="183dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
-            android:text="view selection"
+            android:text="@string/view_selection"
             android:textAppearance="@style/TextAppearance.AppCompat.Display3"
             android:textSize="20dp"
             app:backgroundTint="#CCAD8A"
             app:cornerRadius="@android:dimen/thumbnail_width"
             app:iconTint="#716D6D" />
-
-        <Button
-            android:layout_width="187dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="90dp"
-            android:text="view selection"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-            android:textSize="20dp"
-            app:backgroundTint="#CCAD8A"
-            app:cornerRadius="@android:dimen/thumbnail_width"
-            app:iconTint="#716D6D" />
-
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
