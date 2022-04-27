@@ -20,6 +20,7 @@ public class welcome extends AppCompatActivity {
         setContentView(R.layout.welcome);
 
 
+
         signupbtn = (Button) findViewById(R.id.signupbtn);
         signupbtn.setOnClickListener(new View.OnClickListener() {
             @Override
