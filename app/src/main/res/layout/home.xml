@@ -20,9 +20,10 @@
             android:id="@+id/phone"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/baseline_phone_black_24dp"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="24dp"
             tools:layout_editor_absoluteY="378dp" />
 
         <TextView
@@ -43,12 +44,10 @@
             android:id="@+id/imageView8"
             android:layout_width="145dp"
             android:layout_height="169dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/tiramisu_cake_with_lady_finger_cookies_berries_with_cup_tea_flowers__1_"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="105dp" />
+            tools:layout_editor_absoluteX="-4dp"
+            tools:layout_editor_absoluteY="97dp" />
 
         <TextView
             android:id="@+id/text_header2"
@@ -59,10 +58,8 @@
             android:textColor="@color/black"
             android:textSize="75px"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.872"
-            app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="151dp"
             tools:layout_editor_absoluteY="105dp" />
 
         <TextView
@@ -71,11 +68,9 @@
             android:layout_height="59dp"
             android:text="World class bakery and pastry art"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.834"
-            app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="178dp" />
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="182dp" />
 
         <Button
             android:id="@+id/menu"
@@ -84,11 +79,9 @@
             android:backgroundTint="#B72B63"
             android:text="view menu"
             app:cornerRadius="@android:dimen/thumbnail_width"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.605"
-            app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="230dp" />
+            tools:layout_editor_absoluteX="185dp"
+            tools:layout_editor_absoluteY="228dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -133,7 +126,6 @@
             tools:layout_editor_absoluteY="426dp" />
 
         <TextView
-            android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="cake-o-clock@hotmail.com"
