@@ -37,7 +37,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        menu = (Button) findViewById(R.id.menu);
+        menu = (Button) findViewById(R.id.menus);
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

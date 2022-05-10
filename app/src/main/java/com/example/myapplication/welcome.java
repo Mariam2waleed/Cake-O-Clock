@@ -68,6 +68,8 @@ public class welcome extends AppCompatActivity {
         Intent i = new Intent(this, Home.class);
         startActivity(i);
     }
+
+
     public void scheduleJob(View v) {
         ComponentName componentName = new ComponentName(this, job.class);
         JobInfo info = new JobInfo.Builder(123, componentName)

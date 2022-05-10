@@ -33,6 +33,13 @@
     <string name="Weddings">Weddings</string>
     <string name="chocolate">Chocolate</string>
     <string name="Ice_cream_cakes">Ice cream cakes</string>
-
+    <string-array name="cake_menu">
+        <item>Chocolate Cake</item>
+        <item>8 Seasons</item>
+        <item>Rainbow</item>
+        <item>Strawberry</item>
+        <item>Maltesers</item>
+        <item>Vanillia</item>
+    </string-array>
 
 </resources>
