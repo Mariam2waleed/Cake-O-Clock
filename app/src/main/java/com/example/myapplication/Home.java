@@ -28,7 +28,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
-        phone = findViewById(R.id.phoneNo);
+
         call = findViewById(R.id.phone);
         call.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +37,7 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        menu = (Button) findViewById(R.id.menus);
+        menu = (Button) findViewById(R.id.menu);
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
